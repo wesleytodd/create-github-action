@@ -1,0 +1,27 @@
+{
+  "name": "create-github-action",
+  "version": "0.0.0",
+  "description": "Scaffold a github action",
+  "author": "Wes Todd <wes@wesleytodd.com>",
+  "keywords": [
+    "github",
+    "action",
+    "github action",
+    "create-*",
+    "create"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/create-github-action.git"
+  },
+  "scripts": {
+    "test": "standard && mocha",
+    "prepublushOnly": "npm t"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "standard": "^14.1.0"
+  }
+}
